@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="road  animated-background" id="animatedBackground">
+
+            <div class="car">
+                <img class="carimage" src="car.png" alt="">
+                <div class="animetade_video">
+                    <div class="video_first">
+                        <video autoplay loop
+                            src="stock-footage-animation-of-electric-fan-cooling-system-video-with-the-included-alpha-channel-cartoon.webm"></video>
+                    </div>
+                    <div class="video_second">
+                        <video autoplay loop 
+                            src="stock-footage-animation-of-electric-fan-cooling-system-video-with-the-included-alpha-channel-cartoon.webm"></video>
+                    </div>
+                </div>
+            </div>
+            <img class="hand_brack_icon" src="icons8-handbrake-60.png" alt="">
+            <div class="icons">
+                <span><img id="breack_icon" onclick="speedDown()" src="breack.png" alt=""></span>
+                <span><img id="rece_icon" onclick="speedUp()" src="race.png" alt=""></span>
+            </div>
+            <div class="control">
+                <h2>Break</h2>
+                <h2>Race</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
